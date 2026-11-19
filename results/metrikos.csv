@@ -1,0 +1,13 @@
+task,model,accuracy,f1_macro,precision_macro,recall_macro,kappa
+A: miegas / budrumas,Baseline 1: dažniausia klasė,0.916,0.478,0.458,0.500,0.000
+A: miegas / budrumas,Baseline 2: LogReg (1 epocha),0.896,0.673,0.668,0.679,0.346
+A: miegas / budrumas,Baseline 3: tik laikas nuo nakties pradžios,0.756,0.550,0.554,0.627,0.138
+A: miegas / budrumas,Proposed: Gradient Boosting (kontekstas),0.915,0.761,0.731,0.804,0.523
+B: gilus miegas (N3) / kita,Baseline 1: dažniausia klasė,0.861,0.463,0.430,0.500,0.000
+B: gilus miegas (N3) / kita,Baseline 2: LogReg (1 epocha),0.498,0.437,0.521,0.544,0.040
+B: gilus miegas (N3) / kita,Baseline 3: tik laikas nuo nakties pradžios,0.735,0.631,0.627,0.734,0.298
+B: gilus miegas (N3) / kita,Proposed: Gradient Boosting (kontekstas),0.870,0.720,0.727,0.714,0.441
+C: 4 stadijos (papildomas),Baseline 1: dažniausia klasė,0.558,0.179,0.140,0.250,0.000
+C: 4 stadijos (papildomas),Baseline 2: LogReg (1 epocha),0.370,0.354,0.374,0.374,0.096
+C: 4 stadijos (papildomas),Baseline 3: tik laikas nuo nakties pradžios,0.331,0.339,0.356,0.444,0.132
+C: 4 stadijos (papildomas),Proposed: Gradient Boosting (kontekstas),0.562,0.535,0.537,0.536,0.292

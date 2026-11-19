@@ -1,0 +1,29 @@
+{
+  "info": {
+    "n_subjects": 30,
+    "n_epochs": 25350,
+    "n_features_base": 5,
+    "n_features_ctx": 42,
+    "class_counts": {
+      "1": 14155,
+      "3": 5531,
+      "2": 3531,
+      "0": 2133
+    }
+  },
+  "alarm": {
+    "n_nights": 30,
+    "n_alarms": 521,
+    "fixed_light_or_wake_pct": 64.7,
+    "random_light_or_wake_pct": 64.9,
+    "smart_light_or_wake_pct": 70.2,
+    "fixed_deep_pct": 6.0,
+    "random_deep_pct": 6.3,
+    "smart_deep_pct": 6.1,
+    "fixed_rem_pct": 29.4,
+    "smart_rem_pct": 23.6,
+    "mean_minutes_early": 19.6
+  },
+  "best_subject": "8530312",
+  "worst_subject": "759667"
+}
